@@ -20,6 +20,11 @@ class Test(unittest.TestCase):
         result = IndianStateCensusAnalyser.StateCensusAnalyser.check_delimiter()
         expected = ','
         self.assertEqual(expected, result)
+        
+    def test_check_header(self):
+        result = IndianStateCensusAnalyser.StateCensusAnalyser.check_header()
+        expected = True
+        self.assertEqual(expected, result)
 
 if __name__ =='__main__':
     unittest.main()

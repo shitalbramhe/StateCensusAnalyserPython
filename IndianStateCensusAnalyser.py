@@ -2,8 +2,8 @@
 @Author: Shital Bajait
 @Date: 08-02-2022 13:12:00
 @Last Modified by: Shital Bajait 
-@Last Modified time: 10-02-2022 12:27:00
-@Title : Given State CSV File is correct but delimiter incorrect Returns a custom Exception
+@Last Modified time: 10-02-2022 02:27:00
+@Title : Given State CSV File is correct but no header Returns a custom Exception
 """
 
 import csv
@@ -90,6 +90,26 @@ class StateCensusAnalyser(Exception):
         except StateCensusAnalyser:
                 print("Incorrect delimiter found")
 
+    def check_header():
+        """
+            Description:
+                Function to check header is present or not
+            Parameter:
+                None
+            Return:
+                .csv
+        """
+        try:
+            with open("E:\CFP\StateCensusAnalyserPython\StateCensusData.csv") as data:
+                headers = csv.Sniffer().has_header(data.read())
+                if headers:
+                    return headers
+                else:
+                    raise(StateCensusAnalyser)
+        except StateCensusAnalyser:
+            print("headers Not found")
+
+
 
 if __name__ == '__main__':
     StateCensusAnalyser.state_census()
@@ -97,4 +117,4 @@ if __name__ == '__main__':
     StateCensusAnalyser.check_file()
     StateCensusAnalyser.check_file_extension()
     StateCensusAnalyser.check_delimiter()
-    
+    StateCensusAnalyser.check_header()
