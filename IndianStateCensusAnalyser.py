@@ -8,7 +8,7 @@
 
 import csv
 
-class StateCensusAnalyser(Exception):
+class StateCensusAnalyser():
     def state_census():
         """
             Description:
@@ -39,4 +39,4 @@ class StateCensusAnalyser(Exception):
 if __name__ == '__main__':
     StateCensusAnalyser.state_census()
     print(StateCensusAnalyser.count_number_records())
-    
+
