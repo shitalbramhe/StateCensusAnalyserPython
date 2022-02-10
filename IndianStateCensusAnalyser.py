@@ -10,30 +10,34 @@ import csv
 
 class StateCensusAnalyser:
     def state_census():
-        with open("StateCensusData.csv","r") as data:
+        """
+            Description:
+                Function to load StateCensusData file
+            Parameter:
+                None
+            Return:
+                None
+        """
+        with open("E:\CFP\StateCensusAnalyserPython\StateCensusData.csv","r") as data:
             statecensus = csv.reader(data, delimiter=',')
             for i in statecensus:
                 print(i)
 
     def count_number_records():
-        with open("StateCensusData.csv") as data:
+        """
+            Description:
+                Function to count number of records
+            Parameter:
+                None
+            Return:
+                rows of records
+        """
+        with open("E:\CFP\StateCensusAnalyserPython\StateCensusData.csv") as data:
             statecensus = csv.reader(data, delimiter=',')
             print(len(list(statecensus)))
 
-class CSVStates:
-    def state_code():
-        with open("StateCode.csv", "r") as data:
-            statecode = csv.reader(data, delimiter=',')
-            for i in statecode:
-                print(i)
-
-    def count_number_records():
-        with open("StateCode.csv") as data:
-            statecode = csv.reader(data, delimiter=',')
-            print(len(list(statecode)))
 
 if __name__ == '__main__':
     StateCensusAnalyser.state_census()
     StateCensusAnalyser.count_number_records()
-    CSVStates.state_code()
-    CSVStates.count_number_records()
+    
