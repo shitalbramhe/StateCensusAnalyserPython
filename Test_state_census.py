@@ -6,5 +6,20 @@ class Test(unittest.TestCase):
         expected = 30
         self.assertEqual(expected, result)
 
+    def test_file(self):
+        result = IndianStateCensusAnalyser.StateCensusAnalyser.check_file()
+        expected = "StateCensusData.csv"
+        self.assertEqual(expected, result)
+    
+    def test_file_extension(self):
+        result = IndianStateCensusAnalyser.StateCensusAnalyser.check_file_extension()
+        expected = ".csv"
+        self.assertEqual(expected, result)
+
+    def test_check_delimiter(self):
+        result = IndianStateCensusAnalyser.StateCensusAnalyser.check_delimiter()
+        expected = ','
+        self.assertEqual(expected, result)
+
 if __name__ =='__main__':
     unittest.main()
