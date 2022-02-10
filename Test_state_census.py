@@ -10,7 +10,12 @@ class Test(unittest.TestCase):
         result = IndianStateCensusAnalyser.StateCensusAnalyser.check_file()
         expected = "StateCensusData.csv"
         self.assertEqual(expected, result)
-        
+    
+    def test_file_extension(self):
+        result = IndianStateCensusAnalyser.StateCensusAnalyser.check_file_extension()
+        expected = ".csv"
+        self.assertEqual(expected, result)
+
 
 if __name__ =='__main__':
     unittest.main()

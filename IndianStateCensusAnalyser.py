@@ -2,13 +2,13 @@
 @Author: Shital Bajait
 @Date: 08-02-2022 13:12:00
 @Last Modified by: Shital Bajait 
-@Last Modified time: 10-02-2022 10:40:00
-@Title : Given the State CSV File if incorrect Returns a custom Exception
+@Last Modified time: 10-02-2022 11:40:00
+@Title : Given file type incorrect Returns a custom Exception
 """
 
 import csv
 
-class StateCensusAnalyser():
+class StateCensusAnalyser(Exception):
     def state_census():
         """
             Description:
@@ -51,8 +51,29 @@ class StateCensusAnalyser():
             return "StateCensusData.csv"
         except Exception:
             print("Sorry file does not exist")
+    
+    def check_file_extension():
+        """
+            Description:
+                Function to check csv file exists or not
+            Parameter:
+                None
+            Return:
+                .csv
+        """
+        try:
+            file = "StateCensusData.csv"
+            result = file.endswith(".csv")
+            if result:
+                return ".csv"
+            else:
+                raise(StateCensusAnalyser)
+        except StateCensusAnalyser:
+            print("Sorry! CSV file does not exist")
+
 
 if __name__ == '__main__':
     StateCensusAnalyser.state_census()
     print(StateCensusAnalyser.count_number_records())
     StateCensusAnalyser.check_file()
+    StateCensusAnalyser.check_file_extension()
