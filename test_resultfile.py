@@ -1,6 +1,6 @@
 import unittest
-StateCensusData
-from Merge_two_csv_file import StateCensusData
+import Merge_two_csv_file
+
 class Test(unittest.TestCase):
     def test_number_records_matches(self):
         result = Merge_two_csv_file.StateCensusData.count_number_records()
