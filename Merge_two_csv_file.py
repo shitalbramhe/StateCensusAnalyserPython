@@ -29,7 +29,8 @@ class StateCensusData(Exception):
                             csv_reader2 = csv.reader(f2, delimiter=',')
                             for statecode_row in csv_reader2:
                                 if statecensus_row[0] == statecode_row[1]:
-                                    csv_writer.writerow({statecensus_row[0]+","+statecensus_row[1]+","+statecode_row[2]+","+statecode_row[3]})
+                                    temp = [statecensus_row[0],statecensus_row[1],statecode_row[2],statecode_row[3]] 
+                                    csv_writer.writerow(temp)
 
     def count_number_records():
         """
