@@ -3,7 +3,7 @@
 @Date: 11-02-2022 15:09:00
 @Last Modified by: Shital Bajait 
 @Last Modified time: 13-02-2022 22:55:00
-@Title : Save the State Census Data into a Json File
+@Title : Save the new csv file into a Json File
 """
 import csv
 import json

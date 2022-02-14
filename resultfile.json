@@ -1,176 +1,176 @@
 {
-     "Uttar Pradesh,199812341,09,UP": {
-          "State": "Uttar Pradesh,199812341,09,UP",
-          "Population": null,
-          "TIN": null,
-          "StateCode": null
+     "Uttar Pradesh": {
+          "State": "Uttar Pradesh",
+          "Population": "199812341",
+          "TIN": "09",
+          "StateCode": "UP"
      },
-     "Maharashtra,112372972,27,MH": {
-          "State": "Maharashtra,112372972,27,MH",
-          "Population": null,
-          "TIN": null,
-          "StateCode": null
+     "Maharashtra": {
+          "State": "Maharashtra",
+          "Population": "112372972",
+          "TIN": "27",
+          "StateCode": "MH"
      },
-     "Bihar,103804637,10,BH": {
-          "State": "Bihar,103804637,10,BH",
-          "Population": null,
-          "TIN": null,
-          "StateCode": null
+     "Bihar": {
+          "State": "Bihar",
+          "Population": "103804637",
+          "TIN": "10",
+          "StateCode": "BH"
      },
-     "West Bengal,91347736,19,WB": {
-          "State": "West Bengal,91347736,19,WB",
-          "Population": null,
-          "TIN": null,
-          "StateCode": null
+     "West Bengal": {
+          "State": "West Bengal",
+          "Population": "91347736",
+          "TIN": "19",
+          "StateCode": "WB"
      },
-     "Madhya Pradesh,72597565,23,MP": {
-          "State": "Madhya Pradesh,72597565,23,MP",
-          "Population": null,
-          "TIN": null,
-          "StateCode": null
+     "Madhya Pradesh": {
+          "State": "Madhya Pradesh",
+          "Population": "72597565",
+          "TIN": "23",
+          "StateCode": "MP"
      },
-     "Tamil Nadu,72138958,33,TN": {
-          "State": "Tamil Nadu,72138958,33,TN",
-          "Population": null,
-          "TIN": null,
-          "StateCode": null
+     "Tamil Nadu": {
+          "State": "Tamil Nadu",
+          "Population": "72138958",
+          "TIN": "33",
+          "StateCode": "TN"
      },
-     "Rajasthan,68621012,08,RJ": {
-          "State": "Rajasthan,68621012,08,RJ",
-          "Population": null,
-          "TIN": null,
-          "StateCode": null
+     "Rajasthan": {
+          "State": "Rajasthan",
+          "Population": "68621012",
+          "TIN": "08",
+          "StateCode": "RJ"
      },
-     "Karnataka,61130704,29,KA": {
-          "State": "Karnataka,61130704,29,KA",
-          "Population": null,
-          "TIN": null,
-          "StateCode": null
+     "Karnataka": {
+          "State": "Karnataka",
+          "Population": "61130704",
+          "TIN": "29",
+          "StateCode": "KA"
      },
-     "Gujarat,60383628,24,GJ": {
-          "State": "Gujarat,60383628,24,GJ",
-          "Population": null,
-          "TIN": null,
-          "StateCode": null
+     "Gujarat": {
+          "State": "Gujarat",
+          "Population": "60383628",
+          "TIN": "24",
+          "StateCode": "GJ"
      },
-     "Andhra Pradesh,49386799,28,AP": {
-          "State": "Andhra Pradesh,49386799,28,AP",
-          "Population": null,
-          "TIN": null,
-          "StateCode": null
+     "Andhra Pradesh": {
+          "State": "Andhra Pradesh",
+          "Population": "49386799",
+          "TIN": "28",
+          "StateCode": "AP"
      },
-     "Odisha,41947358,21,OR": {
-          "State": "Odisha,41947358,21,OR",
-          "Population": null,
-          "TIN": null,
-          "StateCode": null
+     "Odisha": {
+          "State": "Odisha",
+          "Population": "41947358",
+          "TIN": "21",
+          "StateCode": "OR"
      },
-     "Telangana,35286757,36,TS": {
-          "State": "Telangana,35286757,36,TS",
-          "Population": null,
-          "TIN": null,
-          "StateCode": null
+     "Telangana": {
+          "State": "Telangana",
+          "Population": "35286757",
+          "TIN": "36",
+          "StateCode": "TS"
      },
-     "Kerala,33387677,32,KL": {
-          "State": "Kerala,33387677,32,KL",
-          "Population": null,
-          "TIN": null,
-          "StateCode": null
+     "Kerala": {
+          "State": "Kerala",
+          "Population": "33387677",
+          "TIN": "32",
+          "StateCode": "KL"
      },
-     "Jharkhand,32966238,20,JH": {
-          "State": "Jharkhand,32966238,20,JH",
-          "Population": null,
-          "TIN": null,
-          "StateCode": null
+     "Jharkhand": {
+          "State": "Jharkhand",
+          "Population": "32966238",
+          "TIN": "20",
+          "StateCode": "JH"
      },
-     "Assam,31169272,18,AS": {
-          "State": "Assam,31169272,18,AS",
-          "Population": null,
-          "TIN": null,
-          "StateCode": null
+     "Assam": {
+          "State": "Assam",
+          "Population": "31169272",
+          "TIN": "18",
+          "StateCode": "AS"
      },
-     "Punjab,27704236,03,PB": {
-          "State": "Punjab,27704236,03,PB",
-          "Population": null,
-          "TIN": null,
-          "StateCode": null
+     "Punjab": {
+          "State": "Punjab",
+          "Population": "27704236",
+          "TIN": "03",
+          "StateCode": "PB"
      },
-     "Chattisgarh,25540196,22,CT": {
-          "State": "Chattisgarh,25540196,22,CT",
-          "Population": null,
-          "TIN": null,
-          "StateCode": null
+     "Chattisgarh": {
+          "State": "Chattisgarh",
+          "Population": "25540196",
+          "TIN": "22",
+          "StateCode": "CT"
      },
-     "Haryana,25353081,06,HR": {
-          "State": "Haryana,25353081,06,HR",
-          "Population": null,
-          "TIN": null,
-          "StateCode": null
+     "Haryana": {
+          "State": "Haryana",
+          "Population": "25353081",
+          "TIN": "06",
+          "StateCode": "HR"
      },
-     "Jammu and Kashmir,12548926,01,JK": {
-          "State": "Jammu and Kashmir,12548926,01,JK",
-          "Population": null,
-          "TIN": null,
-          "StateCode": null
+     "Jammu and Kashmir": {
+          "State": "Jammu and Kashmir",
+          "Population": "12548926",
+          "TIN": "01",
+          "StateCode": "JK"
      },
-     "Uttarakhand,10116752,05,UT": {
-          "State": "Uttarakhand,10116752,05,UT",
-          "Population": null,
-          "TIN": null,
-          "StateCode": null
+     "Uttarakhand": {
+          "State": "Uttarakhand",
+          "Population": "10116752",
+          "TIN": "05",
+          "StateCode": "UT"
      },
-     "Himachal Pradesh,6864602,02,HP": {
-          "State": "Himachal Pradesh,6864602,02,HP",
-          "Population": null,
-          "TIN": null,
-          "StateCode": null
+     "Himachal Pradesh": {
+          "State": "Himachal Pradesh",
+          "Population": "6864602",
+          "TIN": "02",
+          "StateCode": "HP"
      },
-     "Tripura,3671032,16,TR": {
-          "State": "Tripura,3671032,16,TR",
-          "Population": null,
-          "TIN": null,
-          "StateCode": null
+     "Tripura": {
+          "State": "Tripura",
+          "Population": "3671032",
+          "TIN": "16",
+          "StateCode": "TR"
      },
-     "Meghalaya,2964007,17,ME": {
-          "State": "Meghalaya,2964007,17,ME",
-          "Population": null,
-          "TIN": null,
-          "StateCode": null
+     "Meghalaya": {
+          "State": "Meghalaya",
+          "Population": "2964007",
+          "TIN": "17",
+          "StateCode": "ME"
      },
-     "Manipur,2721756,14,MN": {
-          "State": "Manipur,2721756,14,MN",
-          "Population": null,
-          "TIN": null,
-          "StateCode": null
+     "Manipur": {
+          "State": "Manipur",
+          "Population": "2721756",
+          "TIN": "14",
+          "StateCode": "MN"
      },
-     "Nagaland,1980602,13,NL": {
-          "State": "Nagaland,1980602,13,NL",
-          "Population": null,
-          "TIN": null,
-          "StateCode": null
+     "Nagaland": {
+          "State": "Nagaland",
+          "Population": "1980602",
+          "TIN": "13",
+          "StateCode": "NL"
      },
-     "Goa,1457723,30,GA": {
-          "State": "Goa,1457723,30,GA",
-          "Population": null,
-          "TIN": null,
-          "StateCode": null
+     "Goa": {
+          "State": "Goa",
+          "Population": "1457723",
+          "TIN": "30",
+          "StateCode": "GA"
      },
-     "Arunachal Pradesh,1382611,12,AR": {
-          "State": "Arunachal Pradesh,1382611,12,AR",
-          "Population": null,
-          "TIN": null,
-          "StateCode": null
+     "Arunachal Pradesh": {
+          "State": "Arunachal Pradesh",
+          "Population": "1382611",
+          "TIN": "12",
+          "StateCode": "AR"
      },
-     "Mizoram,1091014,15,MI": {
-          "State": "Mizoram,1091014,15,MI",
-          "Population": null,
-          "TIN": null,
-          "StateCode": null
+     "Mizoram": {
+          "State": "Mizoram",
+          "Population": "1091014",
+          "TIN": "15",
+          "StateCode": "MI"
      },
-     "Sikkim,607688,11,SK": {
-          "State": "Sikkim,607688,11,SK",
-          "Population": null,
-          "TIN": null,
-          "StateCode": null
+     "Sikkim": {
+          "State": "Sikkim",
+          "Population": "607688",
+          "TIN": "11",
+          "StateCode": "SK"
      }
 }
